@@ -57,10 +57,8 @@ async function loadFacts() {
     "https://mjmsdlsrtxxchzznofrs.supabase.co/rest/v1/facts",
     {
       headers: {
-        apikey:
-          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1qbXNkbHNydHh4Y2h6em5vZnJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODU2ODAxMzgsImV4cCI6MjAwMTI1NjEzOH0.LItAYKFMnyLUkzoKLSPucywqtD9PfWdT_BaePOm1zio",
-        authorization:
-          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1qbXNkbHNydHh4Y2h6em5vZnJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODU2ODAxMzgsImV4cCI6MjAwMTI1NjEzOH0.LItAYKFMnyLUkzoKLSPucywqtD9PfWdT_BaePOm1zio",
+        apikey: "", //API key
+        authorization: "Bearer",
       },
     }
   );
