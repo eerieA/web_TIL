@@ -2,6 +2,8 @@
 
 This is a simple blog style web application, with responsive design and connection to a database powered by Supabase.
 
+Deployed on Netlify: <a href="https://jd-til.netlify.app/"> https://jd-til.netlify.app/</a>.
+
 <img src="./preview.jpg" alt="preview.jpg" width="350">
 
 <br>
