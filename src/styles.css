@@ -253,6 +253,11 @@ ul {
     margin-top: 24px;
   }
 
+  /*Disable large button transformations*/
+  .btn-large:hover {
+    transform: scale(100%) rotate(0deg);
+  }
+
   .main {
     /* overflow: scroll; */
   }
