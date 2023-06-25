@@ -241,6 +241,18 @@ ul {
 
 /* For very narrow width such as phone */
 @media (max-width: 1000px) {
+  /*Adjus flex layout direction*/
+  .header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  /*Adjus large button padding*/
+  .btn-large {
+    font-size: 20px;
+    margin-top: 24px;
+  }
+
   .main {
     /* overflow: scroll; */
   }
